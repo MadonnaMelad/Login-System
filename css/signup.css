@@ -1,0 +1,35 @@
+body {
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+h1 {
+    color: #17a2b8;
+}
+#demo{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.form-control {
+background-color: transparent;
+}
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color:transparent;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: none;
+}
+.btn-outline-dark {
+    --bs-btn-color: #17a2b8;
+    --bs-btn-border-color: #17a2b8;
+}
+.btn:hover {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+a{
+    color: #FFF;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
